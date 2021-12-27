@@ -1,2 +1,2 @@
-# dvc-ml-demo
-dvc ml demo
+# dvc-NLP-demo
+dvc NLP demo
