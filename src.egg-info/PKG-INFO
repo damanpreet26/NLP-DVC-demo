@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: src
+Version: 0.0.1
+Summary: A small package for dvc pipeline
+Home-page: https://github.com/damanpreet26/NLP-DVC-demo
+Author: demon
+Author-email: damanpreets26@gmail.com
+License: GPU
+Platform: UNKNOWN
+Requires-Python: >=3.7
+
+this is new Readme
+
+## created a new conda env
+
