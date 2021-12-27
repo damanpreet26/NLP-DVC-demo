@@ -1,12 +1,9 @@
 artifacts:
   artifacts_dir: artifacts
-  trained_model_dir: model
-  raw_local_dir: raw_local_dir
-  raw_local_files: data.csv
-
+  prepared_data_dir: prepared
+  trained_data: train.csv
+  test_data: test.csv
   split_data_dir: split_data_dir
-  train: train.csv
-  test: test.csv
   model_dir: model_dir
   model_file: Elasticnet.model
   report_dir: report_dir
