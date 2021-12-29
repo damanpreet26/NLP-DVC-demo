@@ -1,7 +1,7 @@
 artifacts:
   artifacts_dir: artifacts
   prepared_data_dir: prepared
-  trained_data: train.csv
+  train_data: train.csv
   test_data: test.csv
   split_data_dir: split_data_dir
   model_dir: model_dir
