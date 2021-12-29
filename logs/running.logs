@@ -18,3 +18,137 @@ Traceback (most recent call last):
   File "src/stage_01_prepare.py", line 26, in <module>
     main(config=parsed_Args.config, params=parsed_Args.params)
 AttributeError: 'Namespace' object has no attribute 'config'
+[2021-12-29 13:52:08,845: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 13:52:08,846: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 13:52:08,846: ERROR: stage_01_prepare]: 'Namespace' object has no attribute 'config'
+Traceback (most recent call last):
+  File "src/stage_01_prepare.py", line 38, in <module>
+    main(config=parsed_Args.config, params=parsed_Args.params)
+AttributeError: 'Namespace' object has no attribute 'config'
+[2021-12-29 13:55:21,153: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 13:55:21,153: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 13:55:21,154: ERROR: stage_01_prepare]: 'Namespace' object has no attribute 'config'
+Traceback (most recent call last):
+  File "src/stage_01_prepare.py", line 39, in <module>
+    main(config=parsed_Args.config, params=parsed_Args.params)
+AttributeError: 'Namespace' object has no attribute 'config'
+[2021-12-29 13:56:37,284: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 13:56:37,284: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 13:56:37,284: ERROR: stage_01_prepare]: 'Namespace' object has no attribute 'config'
+Traceback (most recent call last):
+  File "src/stage_01_prepare.py", line 39, in <module>
+    main(config_path=parsed_Args.config, params_path=parsed_Args.params)
+AttributeError: 'Namespace' object has no attribute 'config'
+[2021-12-29 13:57:14,294: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 13:57:14,294: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 13:57:14,298: ERROR: stage_01_prepare]: name 'random' is not defined
+Traceback (most recent call last):
+  File "src/stage_01_prepare.py", line 39, in <module>
+    main(config_path=parsed_Args.config, params_path=parsed_Args.params)
+  File "src/stage_01_prepare.py", line 24, in main
+    random.seed(Seed)
+NameError: name 'random' is not defined
+[2021-12-29 13:58:14,873: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 13:58:14,873: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 13:58:14,876: ERROR: stage_01_prepare]: 'builtin_function_or_method' object has no attribute 'seed'
+Traceback (most recent call last):
+  File "src/stage_01_prepare.py", line 41, in <module>
+    main(config_path=parsed_Args.config, params_path=parsed_Args.params)
+  File "src/stage_01_prepare.py", line 26, in main
+    random.seed(Seed)
+AttributeError: 'builtin_function_or_method' object has no attribute 'seed'
+[2021-12-29 13:58:35,814: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 13:58:35,814: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 13:58:35,817: ERROR: stage_01_prepare]: name 'Seed' is not defined
+Traceback (most recent call last):
+  File "src/stage_01_prepare.py", line 41, in <module>
+    main(config_path=parsed_Args.config, params_path=parsed_Args.params)
+  File "src/stage_01_prepare.py", line 26, in main
+    random.seed(Seed)
+NameError: name 'Seed' is not defined
+[2021-12-29 13:59:03,266: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 13:59:03,266: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 13:59:03,269: ERROR: stage_01_prepare]: 'artifacts'
+Traceback (most recent call last):
+  File "src/stage_01_prepare.py", line 41, in <module>
+    main(config_path=parsed_Args.config, params_path=parsed_Args.params)
+  File "src/stage_01_prepare.py", line 29, in main
+    prepared_data_path=os.path.join(artifacts["artifacts"],artifacts["prepared_data_dir"])
+KeyError: 'artifacts'
+[2021-12-29 14:00:41,127: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 14:00:41,127: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 14:00:41,131: ERROR: stage_01_prepare]: 'artifacts'
+Traceback (most recent call last):
+  File "src/stage_01_prepare.py", line 41, in <module>
+    main(config_path=parsed_Args.config, params_path=parsed_Args.params)
+  File "src/stage_01_prepare.py", line 29, in main
+    prepared_data_path=os.path.join(artifacts["artifacts"],artifacts["prepared_data_dir"])
+KeyError: 'artifacts'
+[2021-12-29 14:01:45,867: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 14:01:45,867: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 14:01:45,871: ERROR: stage_01_prepare]: 'artifacts'
+Traceback (most recent call last):
+  File "src/stage_01_prepare.py", line 42, in <module>
+    main(config_path=parsed_Args.config, params_path=parsed_Args.params)
+  File "src/stage_01_prepare.py", line 30, in main
+    prepared_data_path=os.path.join(artifacts["artifacts"],artifacts["prepared_data_dir"])
+KeyError: 'artifacts'
+[2021-12-29 14:02:07,790: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 14:02:07,790: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 14:02:07,794: ERROR: stage_01_prepare]: 'artifacts'
+Traceback (most recent call last):
+  File "src/stage_01_prepare.py", line 43, in <module>
+    main(config_path=parsed_Args.config, params_path=parsed_Args.params)
+  File "src/stage_01_prepare.py", line 31, in main
+    prepared_data_path=os.path.join(artifacts["artifacts"],artifacts["prepared_data_dir"])
+KeyError: 'artifacts'
+[2021-12-29 14:03:27,045: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 14:03:27,045: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 14:03:27,049: ERROR: stage_01_prepare]: expected str, bytes or os.PathLike object, not dict
+Traceback (most recent call last):
+  File "src/stage_01_prepare.py", line 43, in <module>
+    main(config_path=parsed_Args.config, params_path=parsed_Args.params)
+  File "src/stage_01_prepare.py", line 31, in main
+    prepared_data_path=os.path.join(config["artifacts"],config["artifacts"]["prepared_data_dir"])
+  File "/home/demon/anaconda3/envs/dvc-nlp/lib/python3.8/posixpath.py", line 76, in join
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not dict
+[2021-12-29 14:03:52,721: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 14:03:52,721: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 14:03:52,725: INFO: stage_01_prepare]: Stage 01, complete
+[2021-12-29 14:04:21,099: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 14:04:21,100: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 14:04:21,103: INFO: stage_01_prepare]: Stage 01, complete
+[2021-12-29 14:04:38,760: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 14:04:38,760: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 14:04:38,763: INFO: stage_01_prepare]: Stage 01, complete
+[2021-12-29 14:09:56,482: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 14:09:56,482: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 14:09:56,485: INFO: stage_01_prepare]: Stage 01, complete
+[2021-12-29 14:12:16,135: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 14:12:16,136: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 14:12:16,139: INFO: stage_01_prepare]: Stage 01, complete
+[2021-12-29 14:16:30,373: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 14:16:30,373: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 14:16:30,377: INFO: stage_01_prepare]: Stage 01, complete
+[2021-12-29 14:18:16,745: INFO: stage_01_prepare]: 
+ **************
+[2021-12-29 14:18:16,745: INFO: stage_01_prepare]: >>>>>Stage<<<<<<
+[2021-12-29 14:18:16,749: INFO: stage_01_prepare]: Stage 01, complete
