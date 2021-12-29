@@ -1,0 +1,15 @@
+stages:
+  prepare_stage:
+    cmd: python src/stage_01_prepare.py
+    deps:
+      - src/stage_01_prepare.py
+      - src/utils/data_mgmt.py
+      - src/utils/all_utils.py
+      - config/config.yaml
+      - data/data.xml
+    params:
+      - prepare.seed
+      - prepare.split
+    outs:
+      - artifacts/prepared/train.csv
+      - artifacts/prepared/test.csv

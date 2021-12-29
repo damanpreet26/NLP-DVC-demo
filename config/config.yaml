@@ -3,11 +3,9 @@ artifacts:
   prepared_data_dir: prepared
   train_data: train.csv
   test_data: test.csv
-  split_data_dir: split_data_dir
-  model_dir: model_dir
-  model_file: Elasticnet.model
-  report_dir: report_dir
-  report_file: Elasticnet.json
+  feature_data_dir: feature
+  feature_train_file: train.pkl
+  feature_test_file: test.pkl
 
 source_data:
   data_dir: data

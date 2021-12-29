@@ -1,5 +1,6 @@
 import argparse
 import random
+from src.utils.data_mgmt import process_post
 
 from src.utils.all_utils import  *
 import os
@@ -32,16 +33,16 @@ def main(config_path, params_path):
     train_data_path=os.path.join(artifacts["artifacts_dir"],artifacts["prepared_data_dir"],artifacts["train_data"])
     test_data_path=os.path.join(artifacts["artifacts_dir"],artifacts["prepared_data_dir"],artifacts["test_data"])
 
-    print(train_data_path)
-    print(test_data_path)
-    print(input_data)
+    #print(train_data_path)
+    #print(test_data_path)
+    #print(input_data)
 
     encode="utf8"
     with open(input_data, "r", encoding=encode) as data_file:
         with open(train_data_path,"w", encoding=encode) as train_file:
             with open(test_data_path,"w",encoding=encode) as test_file:
-                pass
-                #process_post(data_file, train_file, test_file,"<python>",split)
+                process_post(data_file, train_file, test_file,"<python>",split)
+
 if __name__=="__main__":
     args = argparse.ArgumentParser()
     args.add_argument("--config","--c",default="config/config.yaml")
